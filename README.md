@@ -14,12 +14,6 @@ node clean.js -p <path>
 node clean.js -p '/Users/yayu.wang/hotelrn'
 ```
 
-你还可以把 clean.js 复制到项目根目录下，直接执行：
-
-```
-node clean.js
-```
-
 ## 人工清理
 
 如果觉得不保险（或者没删对？），可以用人工方式暴力清理，这是坠吼的：
