@@ -28,21 +28,24 @@ node clean.js -p '/Users/yayu.wang/hotelrn' -e './example/test'
 
 如果懒得搞脚本，可以用人工方式清理，我个人觉得这是坠吼的，屡试不爽。
 
-1. 在 node 环境中获取系统临时文件夹路径
+### 1. 进入临时文件目录
 
-    ```js
-    node
-    > os.tmpdir()
-    '/var/folder/your/own/path'
-    ```
+```bash
+cd $TMPDIR
+```
 
-2. 清空该文件夹
+> node 环境也可获取到临时文件目录
+```js
+os.tmpdir()
+```
 
-    ```bash
-    cd '/var/folder/your/own/path' && rm -rf *
-    ```
+### 2. 清空该文件夹
 
-不用担心，将来如果出了偏差，等于是我也有责任的。
+```bash
+rm -rf *
+```
+
+不用担心，江来如果出了偏差，等于是我也有泽任的，民白了吗？
 
 ## 服务钦定法
 
